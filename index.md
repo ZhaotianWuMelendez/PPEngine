@@ -13,12 +13,24 @@ The goal of PPEngine and P2D is to make it accessible and fun to start on the jo
 
 # Example Code:
 ```scala
-  var platform3: Box = new Box(900, 75, 200, 20)
-  var platform2: Box = new Box(1260, 160, 300, 20)
-  var boxHere: Box = new Box(1050, 300, 50, 50)
+  Level(Dodge):
+Object(220, 300,ufo, Behaviour(5,5,8,DEFAULT, False))
+Object(160, 300,ufo, Behaviour(5,5,8,DEFAULT, False))
+Object(60, 300,ufo, Behaviour(5,5,8,DEFAULT, False))
+Player(70 , 100,ufo, Behaviour(5,5,8,DEFAULT, False))
+end
+Level(Doge):
+Object(60, 300,ufo, Behaviour(5,5,8,DEFAULT, False))
+Object(160, 300,ufo, Behaviour(5,5,8,DEFAULT, False))
+Player(70 , 100,ufo, Behaviour(5,5,8,DEFAULT, False))
+end
+Level(Dodge):
+Object(60, 300,ufo, Behaviour(5,5,8,DEFAULT, False))
+Player(70 , 100,ufo, Behaviour(5,5,8,DEFAULT, False))
+end
 ```
 
-```js
+```scala
   var platform3: Box = new Box(900, 75, 200, 20)
   var platform2: Box = new Box(1260, 160, 300, 20)
   var boxHere: Box = new Box(1050, 300, 50, 50)
