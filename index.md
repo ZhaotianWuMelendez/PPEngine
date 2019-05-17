@@ -3,6 +3,7 @@
 ### [Link to Repository](https://github.com/FernandoDavis/PPEngine)
 
 
+
 # Introduction:
 
 The Platformer Programming Engine is a programming language based on Platform 2D (P2D) to simplify 2D video game creation, utilizing Scala. With Scala, we can enable features such as Concurrency (hyperthreading) which provide better efficiency and performance, allowing for more sophisticated 2D projects.
@@ -26,6 +27,7 @@ Object(xPosition(integer), yPosition(integer), textureTag(String), Behaviour(Typ
 Enemy(xPosition (Integer), yPosition(integer), enemyTag(string))
 	The various enemy classes have combinations of behaviours, posses sounds and animations, and are easily declared with enemyTags such as “enemy2”.
 
+First declare a Level with a name. Then, place your objects. "end" marks the end of the list of objects in a given Level.
 
 # Example Code:
 ```scala
@@ -54,7 +56,7 @@ end
 
 iFrame for youtube videos:
 
-----<iframe width="X" height="Y" src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # How to Run:
 	Import from the PPEngine repository into an IDE (IntelliJ).
