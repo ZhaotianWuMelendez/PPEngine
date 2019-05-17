@@ -10,22 +10,20 @@
  The goal of PPEngine and P2D is to make it accessible and fun to start on the journey of game design and programming without the need of extensive software development knowledge. Designing some easy to implement functions and using less variables, we can then shorten the amount of code needed to perform useful tasks such as creating game objects, managing behaviour and interactions between them, and to create controllers which manage inputs. These will be used in the same nature as object oriented programming, letting the user define the different game elements. These are core elements of 2D games that the user can then expand upon and mix as they like to develop their own programs and games.
  
 # Guide:
+	After declaring level, you may declare various objects within it. This straightforward process lets you focus on the ever-expandable positioning and qualities of game elements. 
 	
- After declaring level, you may declare various objects within it. This straightforward process lets you focus on the ever-expandable positioning and qualities of game elements.
- 
-Currently implemented objects:
-
-Level(Name(String))
-
-Player(xPosition(integer), yPosition(integer), skinTag (string), Behaviour(TypeDeclaration))
-The player object is controllable with WASD and Space for movement, animations and sounds with the included SpriteSheet, Sound classes are possible.
-
-Object(xPosition(integer), yPosition(integer), textureTag(String), Behaviour(TypeDeclaration))
-Usable to create platforms, backgrounds, moving particles, and more. The Behaviour parameter allows for great flexibility with object customizability.
-
-Enemy(xPosition (Integer), yPosition(integer), enemyTag(string))
-The various enemy classes have combinations of behaviours, posses sounds and animations, and are easily declared with enemyTags such as “enemy2”.
-
+	Currently implemented objects:
+		
+		Level(Name(String))
+		
+		Player(xPosition(integer), yPosition(integer), skinTag (string), Behaviour(TypeDeclaration))
+		The player object is controllable with WASD and Space for movement, animations and sounds with the included SpriteSheet, Sound classes are possible.
+		
+		Object(xPosition(integer), yPosition(integer), textureTag(String), Behaviour(TypeDeclaration))
+		Usable to create platforms, backgrounds, moving particles, and more. The Behaviour parameter allows for great flexibility with object customizability.
+		
+		Enemy(xPosition (Integer), yPosition(integer), enemyTag(string))
+		The various enemy classes have combinations of behaviours, posses sounds and animations, and are easily declared with enemyTags such as “enemy2”.
 
 
 # Example Code:
