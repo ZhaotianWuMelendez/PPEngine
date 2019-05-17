@@ -13,12 +13,6 @@ The goal of PPEngine and P2D is to make it accessible and fun to start on the jo
 
 # Example Code:
 ```scala
-Level(Rubicks):
-Object(220, 300,ufo, Behaviour(5,5,8,DEFAULT, False))
-Object(160, 300,ufo, Behaviour(5,5,8,DEFAULT, False))
-Object(60, 300,ufo, Behaviour(5,5,8,DEFAULT, False))
-Player(70 , 100,ufo, Behaviour(5,5,8,DEFAULT, False))
-end
 Level(MudWorld):
 Object(100, 200, 500, 200, img1, Behaviour(none))
 Object(95, 10, 50, 300, img1, Behaviour(none))
@@ -26,6 +20,13 @@ Object(605, 10, 50, 300, img1, Behaviour(none))
 Object(200, 50, 50, 50, img1, Behaviour(jump+moveBackAndForth+followPlayer))
 Player(400, 100, 40, 40, img1, Behaviour(none))
 end
+Level(Rubicks):
+Object(220, 300,ufo, Behaviour(5,5,8,DEFAULT, False))
+Object(160, 300,ufo, Behaviour(5,5,8,DEFAULT, False))
+Object(60, 300,ufo, Behaviour(5,5,8,DEFAULT, False))
+Player(70 , 100,ufo, Behaviour(5,5,8,DEFAULT, False))
+end
+
 ```
 
 ---![Branching](https://i.imgur.com/VJ6MkEF.png)
