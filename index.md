@@ -4,7 +4,7 @@
 
 
 
-# Introduction:
+# Introduction
 
 The Platformer Programming Engine is a programming language based on Platform 2D (P2D) to simplify 2D video game creation, utilizing Scala. With Scala, we can enable features such as Concurrency (hyperthreading) which provide better efficiency and performance, allowing for more sophisticated 2D projects.
 	
@@ -29,7 +29,7 @@ Enemy(xPosition (Integer), yPosition(integer), enemyTag(string))
 
 First declare a Level with a name. Then, place your objects. "end" marks the end of the list of objects in a given Level.
 
-# Example Code:
+# Example Code
 ```scala
 Level(MudWorld):
 Object(100, 200, 500, 200, img1, Behaviour(none))
@@ -57,7 +57,7 @@ end
 
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-# How to Run:
+# How to Run
 	Import from the PPEngine repository into an IDE (IntelliJ).
 	Build Project (CTRL+F9)
 	Write PPEngine code into the text file “PPEngineCode.txt”
